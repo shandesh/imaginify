@@ -58,6 +58,7 @@ export const Collection = ({
           {images.map((image) => (
             <Card image={image} key={image._id} />
           ))}
+          
         </ul>
       ) : (
         <div className="collection-empty">
